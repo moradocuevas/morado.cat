@@ -1,2 +1,8 @@
 [project]
 name = morado.cat
+
+[servers.github-pages]
+name = github-pages
+enabled = yes
+default = yes
+target = ghpages+ssh://moradocuevas/morado.cat
